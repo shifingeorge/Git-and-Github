@@ -1,0 +1,40 @@
+1: Config
+	git config --global user.name "Write u r name"
+	git config --global user.email type u r email
+
+2: Create u r project folder and initialize git
+	git init
+
+3: Now add ur codes, instruction, commands, folders etc
+
+4: after each edit add and commit it
+	when we commit changes are saved locally
+	git add *file name that u modified* better to type --all
+	git commit -m "type u r message...like what edit u have been made"
+
+5: Have a look at status and log
+	git status //current status
+	git log --all //to see the history
+
+6: Creating a branch
+	git branch *branch name*
+	git branch// to know in branch
+
+7: To checkout to different commits and branches
+	When we commit each time a 40 digit unique fileid is produced.
+	git checkout *fileId*
+	git checkout *branch name*
+
+8: To see what different u made recently
+	git diff
+
+9: To delete recently commited edit
+	git stash
+
+9: To merge two branches
+	for example u want to merge a sub branch to master branch, make sure that ur in master branch then.,
+	git merge *branch name*
+
+10: To have a recursive branch
+	recursive branch is nothing bu merging the same content of two different branches
+	to know more watch this video : https://youtu.be/nXS-N7clo9E?t=2424
