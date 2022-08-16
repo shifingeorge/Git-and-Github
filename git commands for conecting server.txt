@@ -1,0 +1,14 @@
+1: Create a github or gitlab account
+
+2: Create a new rep
+
+3: Copy the HTTPS code 
+
+4: Now add remote
+	git remote *remote name and cp the code*
+	git remote//to see all the remote u created
+	git remote -v//to know fetch and push remote
+
+5: Now push the code
+	Push can be only done after commiting the changes
+	git push *remote name and branch name*
