@@ -1,0 +1,18 @@
+1: Config
+	git config --global user.name "Write u r name"
+	git config --global user.email type u r email
+
+2: Create u r project folder and initialize git
+	git init
+
+3: Now add ur codes, instruction, commands, folders etc
+
+4: after each edit add and commit it
+	git add *file name that u modified* better to type --all
+	git commit -m "type u r message...like what edit u have been made"
+
+5: Have a look at status and log
+	git status //current status
+	git log --all //to see the history
+
+6: 
