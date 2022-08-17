@@ -1,0 +1,2 @@
+1: Get the https link of the code
+	git clone *cp the link*
